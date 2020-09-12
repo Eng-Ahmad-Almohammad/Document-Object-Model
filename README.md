@@ -21,4 +21,10 @@
 ### Once you have accessed an element node, you can then reach the text within that element. This is stored in its own text node. 
 ## Caching DOM queries
 ### Methodw that find elements in the DOM tree are called *DOM queries*. When you need to work with an element more than once, you should use a variable to store the result of this query.
+![DOM querie](https://user-images.githubusercontent.com/70091044/93001508-27078780-f538-11ea-96cb-a881aec89310.PNG)
+## Methods that select individual elements
+* getElementById(): is the quickest and most efficient way to access an ele,emt because no two elements van share the same value for their **id** attribute.
+* querySelector(): is a more recent addition to the DOM, so it is not supported in older browsers. But it is very flexible because its parameter is a CSS selector, which means it can be used to accurately target many more elements.
+
+
 
