@@ -24,7 +24,17 @@
 ![DOM querie](https://user-images.githubusercontent.com/70091044/93001508-27078780-f538-11ea-96cb-a881aec89310.PNG)
 ## Methods that select individual elements
 * getElementById(): is the quickest and most efficient way to access an ele,emt because no two elements van share the same value for their **id** attribute.
+
 * querySelector(): is a more recent addition to the DOM, so it is not supported in older browsers. But it is very flexible because its parameter is a CSS selector, which means it can be used to accurately target many more elements.
+![getElementById](https://user-images.githubusercontent.com/70091044/93001706-bc574b80-f539-11ea-86dc-3d2a00fd3160.PNG)
 
-
-
+## SELECTING AN ELEMENT FROM A NODELIST 
+### A Nodelist is a collection of element nodes. Each node is given an index number (a number that starts at zero, just like an array). 
+### There are two ways to select an element from a Nodelist: The item() method and array syntax(variable name[] ). Both require the index number of the element you want. 
+## Another methodes for selecting:
+* SELECTI NG ELEMENTS USING CLASS ATTRIBUTES ( getElementByClassName() ) 
+* SELECTING ELEMENTS BY TAG NAME (getElementByTagName() )
+* SELECTING ELEMENTS USING CSS SELECTORS ( querySelector() ) (eturns the first element node that matches the CSS-style selector.) 
+* querySe 1ectorA11 () returns a Nodelist of all of the matches. 
+## Repeating actions for an entire nodelist
+### When you have a NodeList, you can loop through each node in the collection and apply the same statements to each.
